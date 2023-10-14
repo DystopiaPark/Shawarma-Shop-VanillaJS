@@ -293,7 +293,7 @@ Header
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/sahara/LEF_4133.JPG") center/cover no-repeat fixed;
+    url("../images/sahara/sahara-hero.JPG") center/cover no-repeat fixed;
   position: relative;
   /* animation */
   overflow-x: hidden;
