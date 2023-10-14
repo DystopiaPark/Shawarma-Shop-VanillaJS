@@ -336,7 +336,7 @@ Header
     var(--clr-primary)
   );
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
   .logo-img {
     width: 100px;
     height: 100px;
