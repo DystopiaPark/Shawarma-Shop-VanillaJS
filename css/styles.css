@@ -280,6 +280,17 @@ Navbar
 Header
 ================== 
 */
+.logo {
+  position: absolute !important;
+  width: 150px !important;
+  height: 150px !important;
+  right: 2%;
+  top: 2%;
+  z-index: 5000;
+  border-radius: 50%;
+  border: 5px solid var(--clr-primary);
+}
+
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
