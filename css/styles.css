@@ -281,9 +281,9 @@ Header
 ================== 
 */
 .logo-img {
-  position: absolute !important;
-  width: 150px !important;
-  height: 150px !important;
+  position: absolute;
+  width: 150px;
+  height: 150px;
   right: 2%;
   top: 2%;
   z-index: 5000;
@@ -336,7 +336,7 @@ Header
     var(--clr-primary)
   );
 }
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
   .logo-img {
     width: 100px;
     height: 100px;
