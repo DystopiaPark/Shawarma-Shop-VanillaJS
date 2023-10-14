@@ -280,7 +280,7 @@ Navbar
 Header
 ================== 
 */
-.logo {
+.logo-img {
   position: absolute !important;
   width: 150px !important;
   height: 150px !important;
@@ -290,7 +290,6 @@ Header
   border-radius: 50%;
   border: 5px solid var(--clr-primary);
 }
-
 .header {
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -336,6 +335,12 @@ Header
     #e9b949,
     var(--clr-primary)
   );
+}
+@media screen and (max-width: 576px) {
+  .logo-img {
+    width: 100px;
+    height: 100px;
+  }
 }
 /* 
 ==================
