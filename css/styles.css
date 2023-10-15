@@ -55,7 +55,7 @@ img {
     min-height: 50vh !important;
   }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 350px) {
   .min-height {
     min-height: 30vh !important;
   }
