@@ -85,6 +85,7 @@ Sections
   background: url("../images/5.png") center/contain no-repeat;
 }
 .section-5 {
+  background: url("../images/6.png") center/contain no-repeat;
 }
 .section-6 {
   background: url("../images/7.png") center/contain no-repeat;
@@ -96,9 +97,8 @@ Sections
   background: url("../images/9.png") center/contain no-repeat;
 }
 
-.wolt-img {
-  background: url("../images/6.png") center/contain no-repeat;
-  object-fit: contain;
+a {
+  cursor: pointer;
 }
 
 /* 
