@@ -66,6 +66,7 @@ img {
 Sections
 ==================
 */
+
 .min-height {
   min-height: 100vh;
   max-width: 1000px;
@@ -74,34 +75,6 @@ Sections
   display: grid;
   justify-content: center;
 }
-/* .header {
-  background: url("../images/1.png") center/contain no-repeat;
-}
-.section-1 {
-  background: url("../images/2.png") center/contain no-repeat;
-}
-.section-2 {
-  background: url("../images/3.png") center/contain no-repeat;
-}
-.section-3 {
-  background: url("../images/4.png") center/contain no-repeat;
-}
-.section-4 {
-  background: url("../images/5.png") center/contain no-repeat;
-}
-.section-5 {
-  background: url("../images/6.png") center/contain no-repeat;
-}
-.section-6 {
-  background: url("../images/7.png") center/contain no-repeat;
-}
-.section-7 {
-  background: url("../images/8.png") center/contain no-repeat;
-}
-.section-8 {
-  background: url("../images/9.png") center/contain no-repeat;
-} */
-
 a {
   cursor: pointer;
 }
@@ -111,6 +84,7 @@ a {
 Footer
 ==================
 */
+
 .footer {
   background: #0e1024;
   text-align: center;
