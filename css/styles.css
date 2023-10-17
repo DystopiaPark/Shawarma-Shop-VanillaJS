@@ -68,8 +68,13 @@ Sections
 */
 .min-height {
   min-height: 100vh;
+  max-width: 1000px;
 }
-.header {
+.center {
+  display: grid;
+  justify-content: center;
+}
+/* .header {
   background: url("../images/1.png") center/contain no-repeat;
 }
 .section-1 {
@@ -95,7 +100,7 @@ Sections
 }
 .section-8 {
   background: url("../images/9.png") center/contain no-repeat;
-}
+} */
 
 a {
   cursor: pointer;
