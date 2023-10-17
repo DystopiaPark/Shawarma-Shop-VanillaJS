@@ -12,6 +12,7 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <!-- sections -->
@@ -20,7 +21,21 @@
     <section class="min-height section-2"></section>
     <section class="min-height section-3"></section>
     <section class="min-height section-4"></section>
-    <section class="min-height section-5"></section>
+    <img
+      src="../images/6.png"
+      alt="wolt-logo"
+      usemap="#logo-map"
+      class="min-height wolt-img"
+    />
+    <map name="logo-map">
+      <area
+        shape="circle"
+        coords="295,230,155"
+        alt="wolt"
+        href="https://wolt.com/sr/srb/leskovac/restaurant/sahara-spot"
+        target="_blank"
+      />
+    </map>
     <section class="min-height section-6"></section>
     <section class="min-height section-7"></section>
     <section class="min-height section-8"></section>
@@ -60,7 +75,12 @@
         </h4>
       </div>
     </footer>
+
     <!-- end of footer -->
-    <script src="app.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/imageMapResizer.js"></script>
+    <script>
+      imageMapResize();
+    </script>
   </body>
 </html>
